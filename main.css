@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#box {
+  border: 1px solid #000;
+  /*
+  width: 100%;
+  */
+  width: 1250px;
+  height: 1370px;
+}
+
+#top-adv {
+  width: 100%;
+  height: 70px;
+  border: 1px solid slateblue;
+}
+
+#top-adv h4 {
+  text-align: center;
+  line-height: 70px;
+}
+
+#top-gnb {
+  width: 100%;
+  height: 40px;
+  border: 1px solid red;
+}
+
+#top-gnb h4 {
+  text-align: right;
+  line-height: 40px;
+}
+
+#main-nb {
+  width: 100%;
+  height: 70px;
+  border: 1px solid blue;
+}
+
+#main-nb h4 {
+  text-align: center;
+  line-height: 70px;
+}
+
+.main-box {
+  display: flex;
+  height: 70px;
+}
+
+.main-Logo {
+  border: 1px solid gray;
+  flex-grow: 1;
+}
+
+.main-Search {
+  border: 1px solid gray;
+  flex-grow: 2;
+}
+
+.main-Form {
+  border: 1px solid gray;
+  flex-grow: 1;
+}
+
+#nav-bar {
+  border: 1px solid green;
+  width: 100%;
+  height: 30px;
+}
+
+#nav-bar h4 {
+  text-align: center;
+  line-height: 30px;
+}
+
+#main-banner {
+  border: 1px solid salmon;
+  width: 91.4%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+/*
+#main-banner h4 {
+  text-align: center;
+  line-height: 200px;
+}
+*/
+.banner-box {
+  display: flex;
+  height: 200px;
+}
+
+.banner {
+  width: 82%;
+  line-height: 200px;
+  text-align: center;
+} 
+
+.banner-box div.b1 {
+  border: 1px solid turquoise;
+  width: 9%;
+}
+
+#content {
+  height: 900px;
+}
+
+.c-container {
+  width: 75%;
+  height: inherit;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+/*
+.c-container h4 {
+  text-align: center;
+  line-height: 800px;
+}
+
+.content-ban {
+  width: 100%;
+  height: 200px;
+  border: 1px solid salmon;
+}
+
+.content-ban h4 {
+  text-align: center;
+  line-height: 200px;
+}
+*/
+
+.content-nav {
+  width: 100%;
+  height: 50px;
+  border: 1px solid dodgerblue;
+}
+
+.content-nav h4 {
+  text-align: center;
+  line-height: 50px;
+}
+
+.content-item {
+  display: flex;
+  width: 100%;
+  height: 850px;
+  border: 1px solid yellow;
+}
+
+.item-box {
+  width: 92%;
+  margin: 40px auto;
+  border: 1px solid yellowgreen;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-box li {
+  flex-grow: 1;
+  list-style: none;
+  border: 1px solid orange;
+  width: 130px;
+  height: 130px;
+  margin: 5px;
+}
+
+.item_1 {
+  text-align: center;
+  line-height: 130px;
+}
+
+#footer {
+  width: 100%;
+  height: 60px;
+  border: 1px solid blue;
+}
+
+#footer h4 {
+  text-align: center;
+  line-height: 60px;
+}
